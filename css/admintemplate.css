@@ -1,0 +1,97 @@
+ .fullwith{ 	
+ 	width: 100% !important;
+ 	margin-bottom:10px;
+ }
+ .marginmenu{
+	margin-left: 85px;
+	margin-right: 200px; 
+}
+
+.h1title{
+	margin-top: 60px; 
+	margin-bottom: 5px;
+	font-family: "Open Sans",sans-serif;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;"
+}
+
+.pretittle-blue{
+	font-family: "Open Sans",sans-serif;
+	color: #0086d9;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+.textnormal{
+	line-height: 1.5;
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding:10px; 
+}
+
+.textbold{
+	line-height: 1.5;
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	padding:10px; 
+}
+
+.borderdiv{
+	line-height: 1.5;
+	border: 1px solid #dfe0e2;
+}
+.textinborder{
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding:10px;
+}
+
+.listtemlate{
+	margin-top: 10px;
+	line-height: 1.5;
+  font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+.listtemlate ul li{
+	margin-bottom: 10px;
+}
+
+.hrfat{
+	margin-left:85px;
+	margin-right:  200px;
+	border:1px solid #dfe0e2;
+}
+.hrsmal{
+	margin-left:85px;
+	margin-right:  200px;
+	border:0.5px solid #dfe0e2;
+}
+
+.divincont{margin:20px 180px 10px 85px;}
+
+.listtemlate ul{list-style-type: circle;}
+.podpunkt li{margin-left: -40px;  list-style-type:none ;}
+.podpunkt li:first-child{ margin-top: 10px; }
+.podpunkt span{color:#0086d9 }
+
+
+@media(max-width: 1660px){
+	.hrfat, .hrsmal, .marginmenu{margin-right:100px;}
+	.divincont{margin-right:80px;}
+}
+
+@media(max-width: 1450px){
+	.hrfat, .hrsmal, .marginmenu{margin-right:50px;}
+	.divincont{margin-right:30px;}
+}
+
+.bord{
+	border-radius: 8px;
+	border:2px solid #9196a1;
+}
