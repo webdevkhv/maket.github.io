@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/template_styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/datepicker.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/datepicker.js"></script>
+	<script src="js/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<title>Бухгалтерия</title>
+</head>
+<body>
+
+	<div class="absolute">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka">
+			<section class="topsection">
+				<div class="container topcontainer" style="background-color: white;">
+
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 title" >
+							<h1>Бухгалтерия</h1>
+							<img  src="img/04.png" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<table class="tablefile">
+								<tr>
+									<td style="width: 250px;">
+										<div class="wrapper">
+											<div class="dropdown">
+												<label data-value=""><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</label>
+												<ul>
+													<li data-value="1"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="2"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="3"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="4"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+												</ul>
+											</div>
+										</div>
+									</td>
+									<td class="tdexit">
+										<a href="index.php"><div class="exit"></div></a>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="container head-cont">
+						<div class="row row-head-packet">
+							<div class="buh-content">
+								<div class="buh-head">
+									<p>Формирование договора-оферты</p>
+									<p>Вы не можете отправить данные</p>
+									<p>Стоимость подключения образовательного учреждения: <b>3 580 &#8381; / </b><b>1 год</b></p>	
+								</div>
+
+								<div class="drop-select-box" >
+									<table class="tablefile-select-mes">
+										<tr>
+											<td style="width:  400px;">
+												<div class="wrapper">
+													<div class="select-buh">
+														<img src="icon/16.png" class="imglabel-select-buh">
+														<label data-value="">Начало срока действия</label>
+														<ul>
+															<li data-value="1" class="buh-select1" onclick="selectOne()" >С момента оплаты</li>
+															<li data-value="2" class="buh-select2" onclick="selectTwo()">С заданного числа</li>
+														</ul>
+													</div>
+												</div>
+											</td>
+											<td> 
+												<div class="buh-date" style="display: none;">
+													<div class="date-filter">
+														<table>
+															<tr>
+																<td>
+																	<input value="дд.мм.гггг" class="datepicker-here datefrom-buh" type="text">
+																	<img src="icon/08.png" class="imgdate-filter" alt="">
+																</td>
+															</tr>
+														</table>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>	
+
+								<div class="dogovor-buh" style="display:none; ;">
+									<p class="packet-twotitle buh-title">Договор-оферта №<span>357</span> от <span>23 сентября 2018</span></p>		
+									<div class="buh-list">
+										<p><span>1.&emsp;</span>Данный договор что то делает</p>
+										<p><span>2.&emsp;</span>Договор-оферта тоже что то значит</p>
+										<p><span>3.&emsp;</span>Срок действия договора-оферты с <span>23 сентября 2018</span> по <span>27 сентября 2019</span></p>
+										<p><span>4.&emsp;</span>Данный договор что то делает</p>
+									</div>
+								</div>
+
+								<div class="buh-button-box" style="display: none;">
+									<table>
+										<tr>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button class="button-pub-public bpp" type="button" name = "" onclick = ""><a href="bookkeeping-hist.html">Сформировать</a></button> 
+												</form> 
+											</td>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button style="display: none;" class="button-rpub-public brpr-clouse" style="width: 120px;" type="button" name = "" onclick = "ClouseDoc()">Закрыть</button> 
+												</form> 
+											</td>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button class="button-rpub-public brpr" style="width: 120px;" type="button" name = "" onclick = "">Просмотр</button> 
+												</form> 
+											</td>
+
+										</tr>
+									</table>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="fixed">
+		<div class="container contfile">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka leftcolonka">
+				<table class="tableheader">
+					<tr> 
+						<td class="filecolup"><a href="index.html"><img src="img/01.png" alt=""></a></td>
+						<td valign="top" class="toptext">
+							<p>Сервис передачи данных в</p>
+							<p>ФИС «ФРДО»</p>
+						</td>
+					</tr>
+				</table>
+				<p class="username">Барсова Александра Геннадьевна</p>
+				<div class="menuleft">
+					<!---МЕНЮ--->
+					<hr>
+					<div class="box-menu-select">
+						<a href="">Пакеты данных</a>
+					</div>
+					<hr>
+					<div class="box-menu-select">
+						<a href="" >Образовательные организации</a>
+					</div>
+					<hr>
+					<div class="box-menu-select">
+						<a href="notic.html">
+							<table style="margin-top: -3px;">
+								<tr>
+									<td>Уведомления</td>
+									<td class="notice" >7</td>
+								</tr>
+							</table>
+						</a>
+					</div>
+					<hr>
+					<div class="box-menu-select">
+						<a class="menuleft-activ" href="">Бухгалтерия</a>
+					</div>
+					<hr>
+					<div class="box-menu-select">
+						<a href="">Файловое хранилище</a>
+					</div>
+					<hr>
+					<div class="box-menu-select">
+						<a href="">Инструкция</a>
+					</div>
+					<hr>
+					<div class="box-menu-select bms">
+						<a href="">Проверка наличия сведений <br> в ФИС «ФРДО»</a>
+					</div>
+					<hr>
+				</div>
+
+				<div class="contact">
+					<div class="contactfix">
+						<a href="tel:+78002500500"><span>&#9990;</span> 8 800 250 05 00</a><br>
+						<a href="mailto:info@frdo.online"><span>&#9993;</span> info@frdo.online</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	$(function() {
+		$('.dropdown ul li').on('click', function() {
+			var label = $(this).parent().parent().children('label');
+			label.attr('data-value', $(this).attr('data-value'));
+			label.html($(this).html());
+
+			$(this).parent().children('.selected').removeClass('selected');
+			$(this).addClass('selected');
+		});
+	});	
+	$(function() {
+		$('.select-buh ul li').on('click', function() {
+			var label = $(this).parent().parent().children('label');
+			label.attr('data-value', $(this).attr('data-value'));
+			label.html($(this).html());
+
+			$(this).parent().children('.selected').removeClass('selected');
+			$(this).addClass('selected');
+		});
+	});	
+
+</script>
+<script src="js/slide.js"></script>
+<script src="js/button.js"></script>
+</html>
+
+

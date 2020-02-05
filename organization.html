@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/template_styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="shortcut icon" href="icon/favicon.ico" type="image/png">
+	<script src="js/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<title>Образовательная организация</title>
+</head>
+<body>
+
+	<div class="absolute">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka">
+			<section class="topsection">
+				<div class="container topcontainer">
+
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 title" >
+							<h1>Образовательная организация</h1>
+							<img  src="img/04.png" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<table class="tablefile">
+								<tr>
+									<td style="width: 250px;">
+										<div class="wrapper">
+											<div class="dropdown">
+												<label data-value=""><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</label>
+												<ul>
+													<li data-value="1"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="2"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="3"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="4"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+												</ul>
+											</div>
+										</div>
+									</td>
+									<td class="tdexit">
+										<a href="index.php"><div class="exit"></div></a>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+
+					<div class="container head-cont">
+						<div class="row row-head-packet">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+									<button class="title-packet-head vis-invis-packet" type="button" id="" name = "" onclick = "">Зарегистрировать связь</button> 
+								</form> 
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+							</div>
+						</div>
+					</div>
+
+					<div class="invis-box2-packet" style="display: none; ">
+						<hr class="packets-hr">
+
+						<div class="container head-cont">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+									<p class="bluetitle-packet blutitlorg-left">Данные о пользователе</p>
+									<table class="left-table-head">
+										<tr>
+											<td class="ltd-left">Фамилия</td>
+											<td class="rtd-left">Васильев</td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Имя</td>
+											<td class="rtd-left">Николай</td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Отчество</td>
+											<td class="rtd-left">Викторович</td>
+										</tr>
+										<tr>
+											<td class="ltd-delete">Адрес электронной почты</td>
+											<td class="rtd-delete"><a href="mailto:romaska@mail.ru">romaska@mail.ru</a></td>
+										</tr>
+									</table>
+								</div>
+
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									<p class="bluetitle-packet">Регистрируя связь с иной организацией</p>
+									<table class="right-table-head">
+										<tr>
+											<td class="ltd-left">ОГРН</td>
+											<td class="rtd-left"><input disabled type="text" value="11233533443"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">КПП</td>
+											<td class="rtd-left"><input autocomplete="off" class="kpp" type="text" value="7717001001"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Сокращённое название</td>
+											<td class="rtd-left"><input disabled type="text" value="ФГУ ВУП Ромашка"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Населенный пункт</td>
+											<td class="rtd-left"><input disabled type="text" value="г.Москва"></td>
+										</tr>
+									</table>
+
+									<table class="right-table-head-check" style="display: none;">
+										<tr>
+											<td class="ltd-left">ОГРН</td>
+											<td class="rtd-left"><input type="text" value="11233533443"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">КПП</td>
+											<td class="rtd-left"><input type="text" value="7717001001"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Сокращённое название</td>
+											<td class="rtd-left"><input type="text" value="ФГУ ВУП Ромашка"></td>
+										</tr>
+										<tr>
+											<td class="ltd-left">Населенный пункт</td>
+											<td class="rtd-left"><input type="text" value="г.Москва"></td>
+										</tr>
+									</table>
+
+									<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+										<input class="input-org" type="checkbox" id="check" name="g1">
+										<label class="label-org" for="check" onclick="regOrg()">&emsp; Регистрируя связь с другой организацией</label> 									
+									</form>
+									
+									<table class="date-packet-table dpt-org">
+										<tr>
+											<td class="libcol"><img src="icon/12.png" alt=""></td>
+											<td valign="top" class="libtext">
+												<div class="max-h">
+													<a type="button" class="white-space">Nazvanie_fila_podpisiдрпларпиыврапилыврпбр.doc</a>
+												</div>
+												<td class="pdf">
+													<a class="sizefile" href="">PDF / 127kb</a>
+												</td>
+											</td>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button class="buttondelete btd-pac" type="button" name = "" onclick = "">
+														<img src="icon/21.png" alt="">
+													</button> 
+												</form>                      
+											</td>
+										</tr>
+									</table>
+									
+									<table class="date-packet-table dpt-org">
+										<tr> 
+											<td class="libcol"><img src="icon/12.png" alt=""></td>
+											<td valign="top" class="libtext">
+												<a type="button" onclick = ""  class="white-space">Nazvanie_fila_podpisi_documenta_bvjgvg_mk cfgsa h.doc</a>
+												<a class="sizefile" href="">PDF / 127kb</a>
+											</td>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button class="buttondelete btd-pac" type="button" name = "" onclick = "">
+														<img src="icon/21.png" alt="">
+													</button> 
+												</form>                      
+											</td>
+										</tr>
+									</table>
+
+									<table>
+										<tr>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<label for="file-upload" class="custom-file-upload cfu-org">
+														<i class="fa fa-cloud-upload"></i><img src="icon/20.png" alt=""> Добавить файл
+													</label>
+													<input class="dropfile" id="file-upload" type="file"/>
+												</form>
+											</td>
+											<td>
+												<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+													<button class="but-download-pac bdt-org" type="submit" name = "" onclick = "">Загрузить файл</button> 
+												</form>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<hr class="org-hr">
+							<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+								<div style="text-align: center;">
+									<button class="but-message-active bma-org" type="submit" name = "" onclick = "">Зарегистрировать</button> 
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section style="background-color: white; ">
+			<p class="packet-twotitle">История всех операций</p>
+			<div class="container head-cont">
+				<div class="row">
+					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" style=" padding-right: 20px;">
+						<form>
+							<div class="search-operations colorRed">
+								<input autocomplete="off" class="input-search" type="search" name="q" value="Искать по названию" onfocus="if (this.value == 'Искать по названию') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Искать по названию';}">
+								<input class="input-submit" type="submit" value="">
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" style="">
+					<div class="operation ">
+						<div class="date-publication">
+							<p>10 сентября 2018</p>
+						</div>
+						<div class="table-publication vis-invis-history1">
+							<table>
+								<tr>
+									<td><div class="png17"></div>
+										<td class="td-two-str"><p>ЗАО НТЦ "Эквит"</p>
+											<p>Заверенная организацией копия Приказа о назначении ответственного лица, заверенная организацией копия Приказа</p>
+										</td>
+										<td><p class="public-siti">г.Москва</p></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="org-history invis-box1-history" style="display:; ">
+							<table>
+								<tr>
+									<td>
+										<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+											<button class="button-pub-public" type="button" name = "" onclick = "">Обновить</button> 
+										</form> 
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td>
+										<p>Причина отказа</p>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="rejection-reason" style="background-color: black;">Заверенная организацией копия Приказа
+										о назначении ответственного лица, заверенная
+									организацией копия Приказа</p></td>
+							</table>					
+
+							<p>Данные о запросе:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">Фамилия</td>
+									<td class="rtd-delete">Иванов</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Имя</td>
+									<td class="rtd-delete">Иван</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Отчество</td>
+									<td class="rtd-delete">Иванович</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Адрес электронной почты</td>
+									<td class="rtd-delete"><a href="mailto:romaska@mail.ru">romaska@mail.ru</a></td>
+								</tr>
+							</table>
+
+							<p>Информация о сертификате:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">ОГРН</td>
+									<td class="rtd-delete">11233533443</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">КПП</td>
+									<td class="rtd-delete">7717001001</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Краткое наименование</td>
+									<td class="rtd-delete">ФГУ ВП "Ромашка"</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Населенный пункт</td>
+									<td class="rtd-delete">Новосибирск</td>
+								</tr>
+							</table>
+
+							<p>Копия документа, подтверждающая связь с ОО:</p>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi_documenta.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<!--hr style="margin-left: 80px;"-->
+
+
+						<div class="operation">
+							<div class="date-publication">
+								<p>8 сентября 2018</p>
+							</div>
+							<div class="table-publication vis-invis-history2">
+								<table>
+									<tr>
+										<td><div class="png18"></div></td>
+										<td class="td-two-str"><p>ЗАО НТЦ "Эквит"</p>
+											<p>Заверенная организацией копия Приказа о назначении ответственного лица, заверенная организацией копия Приказа</p>
+										</td>
+										<td><p class="public-siti">г.Новоросийск</p></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="org-history invis-box2-history" style="display: none; ">
+							<table>
+								<tr>
+									<td>
+										<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+											<button class="button-pub-public" type="button" name = "" onclick = "">Обновить</button> 
+										</form> 
+									</td>
+								</tr>
+							</table>
+
+							<p>Данные о запросе:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">Фамилия</td>
+									<td class="rtd-delete">Иванов</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Имя</td>
+									<td class="rtd-delete">Иван</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Отчество</td>
+									<td class="rtd-delete">Иванович</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Адрес электронной почты</td>
+									<td class="rtd-delete"><a href="mailto:romaska@mail.ru">romaska@mail.ru</a></td>
+								</tr>
+							</table>
+
+							<p>Информация о сертификате:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">ОГРН</td>
+									<td class="rtd-delete">11233533443</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">КПП</td>
+									<td class="rtd-delete">7717001001</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Краткое наименование</td>
+									<td class="rtd-delete">ФГУ ВП "Ромашка"</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Населенный пункт</td>
+									<td class="rtd-delete">Новосибирск</td>
+								</tr>
+							</table>
+
+							<p>Копия документа, подтверждающая связь с ОО:</p>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi_documenta.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div class="operation">
+							<div class="date-publication">
+								<p>3 сентября 2018</p>
+							</div>
+							<div class="table-publication vis-invis-history3">
+								<table>
+									<tr>
+										<td><div class="png19"></div></td>
+										<td class="td-two-str"><p>ЗАО НТЦ "Эквит"</p>
+											<p>Заверенная организацией копия Приказа о назначении ответственного лица, заверенная организацией копия Приказа</p>
+										</td>
+										<td><p class="public-siti">г.Воронеж</p></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="org-history invis-box3-history" style="display: none; ">
+							<table>
+								<tr>
+									<td>
+										<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+											<button class="button-pub-public" type="button" name = "" onclick = "">Обновить</button> 
+										</form> 
+									</td>
+								</tr>
+							</table>
+
+							<p>Данные о запросе:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">Фамилия</td>
+									<td class="rtd-delete">Иванов</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Имя</td>
+									<td class="rtd-delete">Иван</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Отчество</td>
+									<td class="rtd-delete">Иванович</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Адрес электронной почты</td>
+									<td class="rtd-delete"><a href="mailto:romaska@mail.ru">romaska@mail.ru</a></td>
+								</tr>
+							</table>
+
+							<p>Информация о сертификате:</p>
+							<table class="delete-info di-org">
+								<tr>
+									<td class="ltd-delete">ОГРН</td>
+									<td class="rtd-delete">11233533443</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">КПП</td>
+									<td class="rtd-delete">7717001001</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Краткое наименование</td>
+									<td class="rtd-delete">ФГУ ВП "Ромашка"</td>
+								</tr>
+								<tr>
+									<td class="ltd-delete">Населенный пункт</td>
+									<td class="rtd-delete">Новосибирск</td>
+								</tr>
+							</table>
+
+							<p>Копия документа, подтверждающая связь с ОО:</p>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+							<table class="date-packet-table dpt-org-his">
+								<tr> 
+									<td class="libcol"><img src="icon/12.png" alt=""></td>
+									<td valign="top" class="libtext">
+										<a type="button" onclick = "">Nazvanie_fila_podpisi_documenta.doc</a>
+										<a class="sizefile" href="">PDF / 127kb</a>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div class="fcg-hist">
+							<div id="floatingCirclesG">
+								<div class="f_circleG" id="frotateG_01"></div>
+								<div class="f_circleG" id="frotateG_02"></div>
+								<div class="f_circleG" id="frotateG_03"></div>
+								<div class="f_circleG" id="frotateG_04"></div>
+								<div class="f_circleG" id="frotateG_05"></div>
+								<div class="f_circleG" id="frotateG_06"></div>
+								<div class="f_circleG" id="frotateG_07"></div>
+								<div class="f_circleG" id="frotateG_08"></div>
+							</div>
+						</div>
+						<div class="history-none">
+							<img src="icon/15.png" alt="">
+							<p>История пока отсутвует</p>
+							<p>Здесь будет отображаться история ваших операций</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 filtcol">
+						<div class="filtrbox">
+							<p>Фильтр <img src="icon/07.png" alt=""></p>
+						</div>
+						<div class="date-filter">
+							<table>
+								<tr>
+									<td>
+										<input value="дд.мм.гггг" class="datepicker-here datefrom" type="text">
+										<img src="icon/08.png" class="imgdate-filter" alt="">
+									</td>
+									<td><span class="spandate">&mdash;</span></td>
+									<td>
+										<input value="дд.мм.гггг" class="datepicker-here dateto" type="text">
+										&nbsp; <img src="icon/08.png" class="imgdate-filter" alt="" >
+									</td>
+								</tr>
+							</table>
+						</div>
+						<hr class="filter-hr">
+
+						<table>
+							<tr>
+								<td>
+									<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+										<button class="button-all" type="submit" name = "" onclick = "">Все</button> 
+									</form>
+								</td>
+								<td>
+									<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+										<button class="button-download" type="submit" name = "" onclick = "">Загружен</button> 
+									</form>
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+									<form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+										<button class="button-public" type="submit" name = "" onclick = "">Опубликован</button> 
+									</form>
+								</td>
+							</tr>
+						</table>
+
+						<div class="siti-select-box">
+							<p class="siti">Населенный пункт:</p>
+							<table class="tablefile-select-siti">
+								<tr>
+									<td style="width: 100%; ">
+										<div class="wrapper">
+											<div class="dropdown-select-siti">
+												<img src="icon/16.png" class="imglabel-siti">
+												<label data-value="">Все города </label>
+												<ul>
+													<li data-value="1">Все города</li>
+													<li data-value="2">Москва</li>
+													<li data-value="3">Хабарвск</li>
+													<li data-value="4">Новосибирск</li>
+												</ul>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+		</div>
+
+	</div>
+</div>
+
+<div class="fixed">
+	<div class="container contfile">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka leftcolonka">
+			<table class="tableheader">
+				<tr> 
+					<td class="filecolup"><a href="index.html"><img src="img/01.png" alt=""></a></td>
+					<td valign="top" class="toptext">
+						<p>Сервис передачи данных в</p>
+						<p>ФИС «ФРДО»</p>
+					</td>
+				</tr>
+			</table>
+			<p class="username">Барсова Александра Геннадьевна</p>
+			<div class="menuleft">
+				<!---МЕНЮ--->
+				<hr>
+				<div class="box-menu-select">
+					<a href="">Пакеты данных</a>
+				</div>
+				<hr>
+				<div class="box-menu-select">
+					<a class="menuleft-activ" href="" >Образовательные организации</a>
+				</div>
+				<hr>
+				<div class="box-menu-select">
+					<a href="notic.html">
+						<table style="margin-top: -3px;">
+							<tr>
+								<td>Уведомления</td>
+								<td class="notice" >7</td>
+							</tr>
+						</table>
+					</a>
+				</div>
+				<hr>
+				<div class="box-menu-select">
+					<a href="">Бухгалтерия</a>
+				</div>
+				<hr>
+				<div class="box-menu-select">
+					<a href="">Файловое хранилище</a>
+				</div>
+				<hr>
+				<div class="box-menu-select">
+					<a href="">Инструкция</a>
+				</div>
+				<hr>
+				<div class="box-menu-select bms">
+					<a href="">Проверка наличия сведений <br> в ФИС «ФРДО»</a>
+				</div>
+				<hr>
+			</div>
+
+			<div class="contact">
+				<div class="contactfix">
+					<a href="tel:+78002500500"><span>&#9990;</span> 8 800 250 05 00</a><br>
+					<a href="mailto:info@frdo.online"><span>&#9993;</span> info@frdo.online</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	$(function() {
+		$('.dropdown ul li').on('click', function() {
+			var label = $(this).parent().parent().children('label');
+			label.attr('data-value', $(this).attr('data-value'));
+			label.html($(this).html());
+
+			$(this).parent().children('.selected').removeClass('selected');
+			$(this).addClass('selected');
+		});
+	});	
+
+	$(function() {
+		$('.dropdown-select-siti ul li').on('click', function() {
+			var label = $(this).parent().parent().children('label');
+			label.attr('data-value', $(this).attr('data-value'));
+			label.html($(this).html());
+
+			$(this).parent().children('.selected').removeClass('selected');
+			$(this).addClass('selected');
+		});
+	});
+
+</script>
+<script src="js/slide.js"></script>
+<script src="js/button.js"></script>
+</html>
+
+

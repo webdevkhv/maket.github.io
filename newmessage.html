@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/template_styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="shortcut icon" href="icon/favicon.ico" type="image/png">
+	<link rel="stylesheet" href="css/mes.css">
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modal.js"></script> 
+	<script type="text/javascript" src="clientside/cadesplugin/cadesplugin_load.js"></script>
+	<script type="text/javascript" src="clientside/definitions.js"></script>
+	<script type="text/javascript" src="clientside/private/private_handler.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<title>Новое письмо</title>
+</head>
+<body style="background-color: #fafafb;">
+
+	<div class="absolute">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka">
+			<section class="topsection">
+				<div class="container topcontainer">
+
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 title" >
+							<h1>Новое письмо</h1>
+							<img  src="img/04.png" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<table class="tablefile">
+								<tr>
+									<td style="width: 250px;">
+										<div class="wrapper">
+											<div class="dropdown">
+												<label data-value=""><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</label>
+												<ul>
+													<li data-value="1"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="2"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="3"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+													<li data-value="4"><img src="icon/16.png" class="imglabel">ЗАО НТЦ "Эквит"</li>
+												</ul>
+											</div>
+										</div>
+									</td>
+									<td class="tdexit">
+										<a href="index.php"><div class="exit"></div></a>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section >
+				<div class="message">
+					<div class="container head-cont">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<div class="input_1">
+								<input autocomplete="off" type="text" name="email">
+								<span>Укажите тематику</span>
+							</div>
+
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+								<div class="drop-select-box">
+									<table class="tablefile-select-mes">
+										<tr>
+											<td style="width: 100%; ">
+												<div class="wrapper">
+													<div class="dropdown-select dropsel-mes">
+														<img src="icon/16.png" class="img-select-mes">
+														<label data-value="">Выбор с выпадающим списком </label>
+														<ul>
+															<li data-value="1">Выбор с выпадающим списком 1 </li>
+															<li data-value="2">Выбор с выпадающим списком 2 </li>
+															<li data-value="3">Выбор с выпадающим списком 3 </li>
+															<li data-value="4">Выбор с выпадающим списком 4 </li>
+														</ul>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+
+
+							<form>
+								<div class="input-text-box">
+									<textarea class="common" id="comments" placeholder="Текст письма" onfocus="if (this.value == 'Текст письма') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Текст письма';}"></textarea>
+								</div>
+							</form>
+
+							<div class="button-message-file">
+								<div id = "add_newfile_to_message">
+                </div>
+
+                <label for="file-upload" class="custom-file-upload cfun"> 
+                 <i class="fa fa-cloud-upload"></i><img src="icon/20.png" alt=""> Добавить файл 
+               </label>
+               <input class="but-file-mes" id="file-upload" type="file" name = "CONST_ADD_FILE_NOTICE_BUTTON" onchange = "window.PrivateHandlerObj.PrivateHandler(this);"/> 
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="button-message-file">
+         <form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+          <button class="but-message" type="submit" name = "CONST_SEND_NEW_MESSAGE_NOTICE_BUTTON" onclick = "">Отправить</button> 
+        </form>
+
+        <form id="" method = "" action = "" onsubmit="event.preventDefault();"> 
+          <button class="but-message-active" type="submit" name = "CONST_SEND_NEW_MESSAGE_NOTICE_BUTTON" onclick = "">Отправить</button> 
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+</div>
+
+<div class="fixed">
+ <div class="container contfile">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 colonka leftcolonka">
+   <table class="tableheader">
+    <tr> 
+     <td class="filecolup"><a href="/index.php"><img src="img/01.png" alt=""></a></td>
+     <td valign="top" class="toptext">
+      <p>Сервис передачи данных в</p>
+      <p>ФИС «ФРДО»</p>
+    </td>
+  </tr>
+</table>
+<p class="username">Барсова Александра Геннадьевна</p>
+<div class="menuleft">
+  <hr>
+  <div class="box-menu-select">
+   <a href="/data-packets.php">Пакеты данных</a>
+ </div>
+ <hr>
+ <div class="box-menu-select">
+   <a href="/organization.php" >Образовательные организации</a>
+ </div>
+ <hr>
+ <div class="box-menu-select">
+   <a class="menuleft-activ" href="/notice.php">
+    <table style="margin-top: -3px;">
+     <tr>
+      <td>Уведомления</td>
+      <td class="notice" >7</td>
+    </tr>
+  </table>
+</a>
+</div>
+<hr>
+<div class="box-menu-select">
+ <a href="">Бухгалтерия</a>
+</div>
+<hr>
+<div class="box-menu-select">
+ <a href="/files.php">Файловое хранилище</a>
+</div>
+<hr>
+<div class="box-menu-select">
+ <a href="/manual.php">Инструкция</a>
+</div>
+<hr>
+<div class="box-menu-select bms">
+ <a href="/check-frdo.php">Проверка наличия сведений в ФИС «ФРДО»</a>
+</div>
+<hr>
+</div>
+
+<div class="contact">
+  <div class="contactfix">
+   <a href="tel:+78002500500"><span>&#9990;</span> 8 800 250 05 00</a><br>
+   <a href="mailto:info@frdo.online"><span>&#9993;</span> info@frdo.online</a>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+ $(function() {
+  $('.dropdown ul li').on('click', function() {
+   var label = $(this).parent().parent().children('label');
+   label.attr('data-value', $(this).attr('data-value'));
+   label.html($(this).html());
+
+   $(this).parent().children('.selected').removeClass('selected');
+   $(this).addClass('selected');
+ });
+});	
+
+ $(function() {
+  $('.dropdown-select ul li').on('click', function() {
+   var label = $(this).parent().parent().children('label');
+   label.attr('data-value', $(this).attr('data-value'));
+   label.html($(this).html());
+
+   $(this).parent().children('.selected').removeClass('selected');
+   $(this).addClass('selected');
+ });
+});
+
+ $(function () {
+  var txt = $('#comments'),
+  hiddenDiv = $(document.createElement('div')),
+  content = null;
+
+  txt.addClass('txtstuff');
+  hiddenDiv.addClass('hiddendiv common');
+
+  $('body').append(hiddenDiv);
+
+  txt.on('keyup', function () {
+
+   content = $(this).val();
+
+   content = content.replace(/\n/g, '<br>');
+   hiddenDiv.html(content + '<br class="lbr">');
+
+   $(this).css('height', hiddenDiv.height());
+
+ });
+});
+
+</script>
+<script src="js/slide.js"></script>
+<script src="js/button.js"></script>
+<script src="js/main.js"></script>
+</html>
+
+
